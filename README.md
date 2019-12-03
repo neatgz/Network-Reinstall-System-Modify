@@ -3,6 +3,20 @@ It can reinstall CentOS, Debian, Ubuntu, Windows 2003, 7, 2008R2, 2012R2, 2016, 
 
 [One-click Network Reinstall System – Magic Modify version](https://tech.cxthhhhh.com/linux/2018/11/27/original-one-click-network-reinstall-system-magic-modify-version-for-linux-windows-en.html), Forked from [MoeClub Vicer](https://moeclub.org/2018/04/03/603/), technical support and maintenance provided by [Technical Blog | 技術博客](https://tech.cxthhhhh.com/), more features of the magic version are constantly increasing.
 
+# Usage
+http://rsnote.com/60.html
+
+apt install -y xz-utils openssl gawk file
+
+wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://github.com/neatgz/Network-Reinstall-System-Modify/raw/master/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh
+
+bash ~/Network-Reinstall-System-Modify.sh -CXT_Bare-metal_System_Deployment_Platform
+
+VNC
+1、请进入 [选项 0] 或者 [选项 1]，进行手动安装系统。
+2、选择 [Linux Installs] 选项。我们将在下一步中，选择要安装的系统。
+3、选择 [Installer] 或者 [Graphical Installer] 选项，启动图形化系统安装界面。
+4、最后就按照手动安装 Linux 系统的步骤自行解决即可！
 
 ## Realistic Demand
 Why do we need to reinstall a pure system?
